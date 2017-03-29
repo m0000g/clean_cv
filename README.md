@@ -1,7 +1,7 @@
-# clean_cv
+# Clean CV
 
 Clean CV is a pretty basic cv with html + css + and vanilla js
 
-# TODO
+# To do
 
 - Add resets
