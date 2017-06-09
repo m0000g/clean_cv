@@ -1,26 +1,10 @@
-body{
-    font-family: 'Cabin', sans-serif;
-    color: #1F1F26;
-    font-size: 14px;
-    line-height: 1.5rem;
-
-}
-p{
-    font-size: 1.2rem;
-}
-.container{
-    width: 1024px;
-    margin: 0 auto;
-
-}
-
-h1, h2, h3, h4, h5{
+body {
     font-family: 'Raleway', sans-serif;
-    font-weight: 600;
-    font-size: 2rem;
+    color: #1F1F26;
+    line-height: 1.8rem;
 }
 
-header{
+header {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -28,12 +12,81 @@ header{
     background-color: #FAFAFA;
     padding: 2rem 0rem;
 }
-.tagline{
-    width: 450px;
-    margin: 0 auto;
-}
-section{
+
+section {
     display: flex;
     align-items: left;
+    padding-top: 1.8rem;
+}
 
+p, ul, li {
+    font-size: 1.2rem;
+}
+
+article{
+    margin: 2.5rem 1rem;
+
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+}
+
+h1 {
+    font-size: 3rem;
+    font-weight: 500;
+}
+
+h2 {
+    font-size: 1.8rem;
+    font-weight: 400;
+}
+
+h3 {
+    font-size: 1rem;
+}
+
+h4 {
+    font-size: 0.5rem;
+}
+
+h5 {
+    font-size: 0.5rem;
+}
+
+.tagline {
+    width: 960px;
+    margin: 0 auto;
+}
+
+.container {
+    width: 960px;
+    margin: 0 auto;
+}
+
+.center{
+    text-align: center;
+}
+
+.separator{
+    border-bottom: 1px solid #999999;
+    height: 1rem;
+    width: 100%;
+}
+
+.grid {
+   display: grid;
+   grid-template-columns: 33% 33% auto;
+   grid-column-gap: 15px;
+   grid-row-gap: 15px;
+}
+
+.grid div{
+    background-color: pink;
+    height: 180px;
 }
