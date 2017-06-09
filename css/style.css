@@ -19,7 +19,7 @@ section {
     padding-top: 1.8rem;
 }
 
-p, ul, li {
+p, ul, li, div {
     font-size: 1.2rem;
 }
 
@@ -40,15 +40,18 @@ h5 {
 h1 {
     font-size: 3rem;
     font-weight: 500;
+    line-height: 2.5rem;
 }
 
 h2 {
     font-size: 1.8rem;
     font-weight: 400;
+    line-height: 1.8rem;
 }
 
 h3 {
     font-size: 1rem;
+    line-height: 1.5rem;
 }
 
 h4 {
@@ -60,12 +63,12 @@ h5 {
 }
 
 .tagline {
-    width: 960px;
+    max-width: 960px;
     margin: 0 auto;
 }
 
 .container {
-    width: 960px;
+    max-width: 960px;
     margin: 0 auto;
 }
 
@@ -89,4 +92,16 @@ h5 {
 .grid div{
     background-color: pink;
     height: 180px;
+}
+
+.grid_2{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-column-gap: 15px;
+    grid-row-gap: 15px;
+}
+
+.grid_2 div{
+
+    height: auto;
 }
