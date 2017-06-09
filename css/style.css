@@ -1,9 +1,39 @@
 body{
-	background-color: pink;
+    font-family: 'Cabin', sans-serif;
+    color: #1F1F26;
+    font-size: 14px;
+    line-height: 1.5rem;
+
+}
+p{
+    font-size: 1.2rem;
+}
+.container{
+    width: 1024px;
+    margin: 0 auto;
+
+}
+
+h1, h2, h3, h4, h5{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+    font-size: 2rem;
 }
 
 header{
-	display: flex;
-	flex-direction: row;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: #FAFAFA;
+    padding: 2rem 0rem;
 }
+.tagline{
+    width: 450px;
+    margin: 0 auto;
+}
+section{
+    display: flex;
+    align-items: left;
 
+}
