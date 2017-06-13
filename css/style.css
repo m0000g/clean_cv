@@ -16,7 +16,7 @@ header {
 section {
     display: flex;
     align-items: left;
-    padding-top: 1.8rem;
+    padding-top: 0.8rem;
 }
 
 p, ul, li, div {
@@ -90,8 +90,8 @@ h5 {
 }
 
 .grid div{
-    background-color: pink;
-    height: 180px;
+    /*background-color: pink;*/
+    height: auto;
 }
 
 .grid_2{
