@@ -65,7 +65,13 @@ h5 {
     font-size: 0.5rem;
 }
 
-a{ color: #5a2ca0; }
+a {
+    color: #5a2ca0;
+}
+
+ul {
+    margin-top: 0;
+}
 
 .avatar {
     height: 100px;
@@ -87,7 +93,6 @@ a{ color: #5a2ca0; }
 
 .separator {
     border-bottom: 1px solid #999999;
-    height: 1rem;
     width: 100%;
 }
 
@@ -122,5 +127,13 @@ a{ color: #5a2ca0; }
     float: right;
     position: fixed;
     right: 1rem;
+    display: none;
+}
+
+.pagebreak {
+    page-break-after: always;
+}
+
+.hide{
     display: none;
 }
