@@ -8,4 +8,6 @@ Clean CV is a pretty basic cv with html + css + normalize.css
 
 # To do
 
-- Add gallery fotos and links
+- Fix gallery glinch.
+- Fix css crazy combo (repeated styles in print and screen).
+- Test code.
