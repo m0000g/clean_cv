@@ -115,7 +115,12 @@ a {
     display: none;
 }
 
-@media only screen and (max-width: 500px) {
+.grid img {
+    clear: both;
+    width: 100%;
+}
+
+@media only screen and (max-width: 768px) {
     .grid_2,
     .grid {
         grid-template-columns: 100%;
@@ -131,9 +136,6 @@ a {
     }
     .grid small {
         margin-bottom: 1rem;
-    }
-    .grid img {
-        max-width: 100%;
     }
     .hide_mobile {
         display: none;
