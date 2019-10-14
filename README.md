@@ -9,3 +9,5 @@ Clean CV is a pretty basic cv with html + css + normalize.css
 # To do
 
 - Add gallery fotos and links
+
+- Test
