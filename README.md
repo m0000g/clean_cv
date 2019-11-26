@@ -11,3 +11,8 @@ Clean CV is a pretty basic cv with html + css + normalize.css
 - Add gallery fotos and links
 
 - Test
+
+
+# Repo
+
+Github
